@@ -1,0 +1,91 @@
+html{ height:100%; }
+body{ min-height:100%; padding:0; margin:0; position:relative; }
+
+body{
+    position: relative;
+}
+body::after {
+    content: '';
+    display: block;
+    height: 120px; /* Set same as footer's height */
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    
+  }
+  .all_content{
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .bod{
+    font-size: 40px;
+  }
+  
+.ic{
+    font-size: 30px;
+    -webkit-transition: all 0.3s linear 0.1s; 
+    
+    transition: all 0.3s linear 0.1s; 
+}
+.ic:hover{
+    font-size: 40px;
+}
+.iconss{
+    float: left;
+    width: fit-content;
+    margin: 30px auto 30px 30px;
+    
+    
+}
+.contacts{
+    float: left;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:490px){
+    footer {        
+        height: 240px;         
+      }      
+    .bod{
+        font-size: 40px;
+    }
+    .all_content{
+        align-content: center;
+    }
+    .contacts{
+        float: left;
+        margin-left: 100px;
+    }
+    .iconss{
+        float: left;
+        margin-left: 120px;
+    }
+    .ic{
+        font-size: 45px;
+        transition: all 0.3s linear 0.1s; 
+    }
+    .ic:hover{
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width:400px){
+    footer {        
+        height: 240px;         
+      }  
+      .iconss{
+          margin-left: 70px;
+      }
+      .contacts{
+          margin-left: 40px;
+      }
+    
+}
