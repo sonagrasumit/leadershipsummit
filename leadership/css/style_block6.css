@@ -1,0 +1,29 @@
+
+.item6{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    grid-auto-columns: minmax(100px, auto);
+    grid-gap: 10px;
+    
+  }
+
+.contact_form{
+    grid-column: 1;
+    grid-row: 1;
+    background-color:#f5f2f1;
+    min-height: 250px;
+    height: auto;
+}
+.in_touch{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: aqua;
+}
+
+.contact_form form{
+    align-items: left;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 10px;
+}
