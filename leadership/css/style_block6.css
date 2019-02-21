@@ -1,7 +1,7 @@
 
 .item6{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(7,1fr);
     padding: 10px;
     grid-auto-columns: minmax(100px, auto);
     grid-gap: 10px;
@@ -9,21 +9,21 @@
   }
 
 .contact_form{
-    grid-column: 1;
+    grid-column: span 3;
     grid-row: 1;
     background-color:#f5f2f1;
-    min-height: 250px;
-    height: auto;
+    min-height: 350px;
+
 }
 .in_touch{
-    grid-column: 2;
+    grid-column: span 4;
     grid-row: 1;
     background-color: aqua;
 }
 
 .contact_form form{
     align-items: left;
-    background-color: cornflowerblue;
+    background-color:rgb(132, 147, 218);
     padding: 10px;
     margin: 10px;
 }
