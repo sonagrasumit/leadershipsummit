@@ -39,21 +39,39 @@
     <!-- Contact form and and get in touch -->
     <div class="item6">
         <div class="contact_form">
-            <form >
-                <label for="form_name">Name*:</label>
-                <input type="text" id="form_name"  placeholder="Enter Name" required><br>
-                <label for="form_org">Organisation*:</label>
-                <input type="text" id="form_org"  placeholder="Organisation name" required><br>
-                <label for="form_name">Name*:</label>
-                <input type="text" id="form_name"  placeholder="Enter Name" required><br>
-            </form>
+        <form method="post" action="" align="left">
+                <h3 align="center"> Contact Us </h3>
+                <div class="formss">
+				<div>                
+                	<label>NAME* </label>
+               	 	<input type="text" name="user_email" class="form-control" id="user-email" placeholder="Name" width="300px" required/>
+                </div><br>
+				<div>
+					<label>ORGANIZATION : </label>
+                	<input type="password" name="user_org" class="form-control" id="user-org" placeholder="Organisation" required>
+                </div><br>
+                <div>
+					<label>EMAIL ADDRESS* : </label>
+                	<input type="password" name="user_email" class="form-control" id="user-email" placeholder="Email" >
+                </div><br>
+                <div>
+					<label>ABOUT YOURSELF : </label>
+                    <textarea type="text" name="user_about" class="form-control" id="user-about" required ></textarea>
+                </div>
+				<br>
+				<div>
+                	<input type="submit" name="btn_submit" class="btn btn-primary" id="submit_btn" placeholder="Email" width="200px" value="SUBMIT" required>
+				</div>
+				</div>
+			</form>
 
         </div>
+<!-- Make this block responsive -->
         <div class="in_touch">
-            <h1>in touch</h1>
 
-        </div>  
-    
+        <h3>Get in Touch</h3>
+        </div>
+        
     
     </div>
     

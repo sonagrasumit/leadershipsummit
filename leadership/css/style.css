@@ -79,6 +79,32 @@ body{
     min-height: 100px;
     background-color:#4e6e7d;
 }
+form {
+    width: 495px;
+    height: 525px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: normal;
+    font: 700px 20 "Bookmania", serif;
+    
+}
+.formss{
+    padding: 10px;
+}
+form h3{
+    color: black;
+    font: 700 34px "Bookmania", serif;
+}
+#submit_btn{
+    float: right;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+}
 
    .speakers_inner_grid{
     display: grid;
