@@ -1,4 +1,4 @@
-
+@media only screen and (min-width:800px){
 .item6{
     display: grid;
     grid-template-columns: repeat(7,1fr);
@@ -19,6 +19,8 @@
     grid-column: span 4;
     grid-row: 1;
     background-color: aqua;
+    height: 525px;
+    margin: 10px;
 }
 
 .contact_form form{
@@ -26,4 +28,32 @@
     background-color:rgb(132, 147, 218);
     padding: 10px;
     margin: 10px;
+}
+}
+@media only screen and (max-width:800px){
+    .item6{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        padding: 10px;
+        grid-auto-rows: minmax(200px, auto);
+        grid-gap: 10px;
+        
+      }
+    .contact_form{
+        grid-column: 1;
+        grid-row: 1;
+        background-color:#f5f2f1;
+        min-height: 350px;
+        min-width: 300px;
+    
+    }
+    .in_touch{
+        grid-column: 1;
+        grid-row: 2;
+        background-color: aqua;
+        height: 525px;
+        margin: 10px;
+    }
+
+    
 }
