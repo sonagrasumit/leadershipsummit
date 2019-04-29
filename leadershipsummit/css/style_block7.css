@@ -1,0 +1,98 @@
+html{ height:100%; }
+body{ min-height:100%;height: 99%; padding:0; margin:0; position:relative; }
+
+body{
+    position: relative;
+    z-index: 100;
+}
+  footer {
+    
+  }
+
+  .footer_block7{
+    width: max-content;
+    margin: 0px auto;
+    font-size: 40px;
+    float: center;
+  }
+  .width {
+    width:100%
+  }
+  .footer_block7 {
+    margin-top: -25px;
+  }
+  .all_content{
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+.ic{
+    font-size: 40px;
+    margin: 5px;
+    -webkit-transition: all 0.3s linear 0.1s; 
+    transition: all 0.3s linear 0.1s; 
+}
+.ic:hover{
+    font-size: 55px;
+}
+.iconss{
+    float: left;
+    width: fit-content;
+    /*! margin: 30px auto 30px 30px; */
+    
+    
+    margin-top: -15px;
+}
+.contacts{
+    float: left;
+    margin-left: 10px;
+    font-size: 25px;
+    /*! margin-top: 50px; */
+    margin-right: 25px;
+    margin-bottom: 3px;
+    font-family:Lora;
+    color: #FFF;
+}
+
+.contacts p{
+    display: inline;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width:490px){
+    footer {        
+        height: 340px;         
+      }      
+    .bod{
+        font-size: 40px;
+    }
+    .all_content{
+        align-content: center;
+    }
+    .contacts{
+        float: left;
+        margin-left: 100px;
+    }
+    .iconss{
+        float: left;
+        margin-left: 120px;
+    }
+    .ic{
+        font-size: 45px;
+        transition: all 0.3s linear 0.1s; 
+    }
+    .ic:hover{
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width:400px){
+    footer {        
+        height: 240px;         
+      }  
+      .iconss{
+          margin-left: 70px;
+      }
+      .contacts{
+          margin-left: 40px;
+      }
+    
+}
