@@ -27,7 +27,7 @@
 <body>
  
 <div class="grid-container">
-
+<!--
 <div class="topnav" id="Topnav">
     <a href="#item1" style = "color: #916b2f">Home</a>
     <a href="#item2" style = "color: #916b2f">About us</a>
@@ -40,7 +40,8 @@
   </a>
 
 </div>
-
+-->
+  <?php include("topnav.php"); ?>
   <div class="item1" style="margin-top:-30px;" id="item1">
     <div class="leadership_summit_info">
         <div>
