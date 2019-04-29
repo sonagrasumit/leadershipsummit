@@ -37,4 +37,38 @@ body{
     width: 99.4%;
     background-color:#000000;
     
+    
+}
+
+.topnav {
+  position: fixed;
+  width: 99.5%;
+  z-index: 101;
+  background-color: #FFF;
+  padding: 5px;
+  margin: 0px 3px;
+  margin-top: -10px;
+  font-family: Cinzel;
+}
+.topnav a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+.topnav a:hover {
+  background-color: #FFF;
+  color: #CFA057;
+  text-decoration: none;
+}
+.active {
+  background-color: #ce9e62;
+  color: white;
+}
+.topnav .icon {
+  display: none;
 }
