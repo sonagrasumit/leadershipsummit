@@ -32,7 +32,7 @@
     <a href="#item1" style = "color: #916b2f">Home</a>
     <a href="#item2" style = "color: #916b2f">About us</a>
     <a href="#" style = "color: #916b2f">Speakers</a>
-    <a href="#" style = "color: #916b2f">Sponsers</a>
+    <a href="#" style = "color: #916b2f">Sponsors</a>
     <a href="#item6" style = "color: #916b2f">Contact</a>
     <a href="#item6" style = "color: #916b2f">Tickets</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
