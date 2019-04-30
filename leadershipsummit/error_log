@@ -1,2 +1,0 @@
-[21-Apr-2019 18:07:28 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'scicondb_user'@'localhost' to database 'scicondb_user' in /home/oy3ou2krt427/public_html/leadershipsummit/dbSave.php on line 16
-[21-Apr-2019 18:07:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/oy3ou2krt427/public_html/leadershipsummit/dbSave.php on line 20

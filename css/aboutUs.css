@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-}
+    
+  }
 
 .topnav {grid-area : topnav}
 .item2 {grid-area: about_xavier}
@@ -20,6 +21,7 @@ body{
     padding: 5px;
     
   }
+
   .grid-container > div {
      text-align: center;
      padding: 20px 5px;
@@ -29,6 +31,7 @@ body{
     color:#000000;
     min-height: 100px;
     background-color:#f5f2f1;
+    
   }
   .item7{
     color:#ce9e62;

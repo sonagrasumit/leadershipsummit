@@ -29,7 +29,6 @@
   <?php include("topnav.php"); ?>
   <div class="item2" style="margin-top:-30px;" id="item2">
     <div class="about_xavier">
-        <img class="sxc_image" src="images/quad_pan1.JPG" alt="Quadrangle">
 
     
     </div>
