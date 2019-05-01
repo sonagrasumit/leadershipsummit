@@ -69,8 +69,8 @@ $(window).on("resize", function () {
 <div class="grid-container">
 
 <div class="topnav" id="Topnav" style = "right: -3px">
-    <a href="#item1" style = "color: #916b2f">Home</a>
-    <a href="#item2" style = "color: #916b2f">About Us</a>
+    <a href="index_main.php" style = "color: #916b2f">Home</a>
+    <a href="aboutUs.php" style = "color: #916b2f">About Us</a>
     <a href="speakers.php" style = "color: #916b2f">Speakers</a>
     <a href="#" style = "color: #916b2f">Sponsors</a>
     <a href="#item6" style = "color: #916b2f; border-right: none;">Contact</a>
