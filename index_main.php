@@ -72,7 +72,7 @@ $(window).on("resize", function () {
     <a href="index_main.php" style = "color: #916b2f">Home</a>
     <a href="aboutus.php" style = "color: #916b2f">About Us</a>
     <a href="speakers.php" style = "color: #916b2f">Speakers</a>
-    <a href="#" style = "color: #916b2f">Sponsors</a>
+    <a href="sponsors.php" style = "color: #916b2f">Sponsors</a>
     <a href="#item6" style = "color: #916b2f; border-right: none;">Contact</a>
     <button class="button button4" data-toggle = "modal" data-target = "#myModal" data-backdrop = "true">Attend</button>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
