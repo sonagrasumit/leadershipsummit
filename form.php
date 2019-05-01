@@ -194,9 +194,9 @@ $(window).on("resize", function () {
 
 <div class="topnav" id="Topnav" style = "right: -3px right: -3px; margin-top: 0px; padding-top: 10px; padding-bottom: 10px; top: 0px;">
     <a href="index_main.php" style = "color: #916b2f">Home</a>
-    <a href="#item2" style = "color: #916b2f">About Us</a>
+    <a href="aboutus.php" style = "color: #916b2f">About Us</a>
     <a href="speakers.php" style = "color: #916b2f">Speakers</a>
-    <a href="#" style = "color: #916b2f">Sponsors</a>
+    <a href="sponsors.php" style = "color: #916b2f">Sponsors</a>
     <a href="form.php" style = "color: #916b2f; border-right: none;">Contact</a>
     <button class="button button4" data-toggle = "modal" data-target = "#myModal" data-backdrop = "true">Attend</button>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">

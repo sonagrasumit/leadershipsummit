@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style_block2.css">
     <link rel="stylesheet" href="css/style_block5.css">
     <link rel="stylesheet" href="css/style_block7.css">
-    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="sponsor.css">
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link rel="stylesheet" href="css/style_block6.css">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
@@ -197,13 +197,24 @@ $(window).on("resize", function () {
 <br><br>
 
 <div class="container">
-  <img src="images/xav.png" alt="Snow" style="width:100%; height: auto; margin-left: 19.2%; margin-top: 0.45%; ">
-  <div class="top-left" style="color: #CFA057;font-size: 18px;font-family: Lora;text-align: justify; margin-top: -50px;"><h1 style="text-align: left;">ABOUT US</h1><br>
-  	St. Xavier’s College (Autonomous), Mumbai, one of the oldest and most prestigious colleges in India, offers courses in Arts, Commerce, Science, Management Studies, Information Technology and Mass Media. Founded by the Jesuits in 1869, the college has upheld the Jesuit values on the basis of which it was started. The college is a part of the worldwide group of Jesuit institutions, numbering over 100. In the U.S.A the Jesuits have 28 colleges, the George Town college and Boston College to name a few. 
-The college motto is ‘Provocans Ad Volandvm’, which means ‘Provoke to Fly’. This very spirit is reflected by over 2,700 students who are a part of this institution. The college continues to reach new heights in the fields of higher secondary, undergraduate and postgraduate studies and research. Eminent alumni of the college include Azim Premji, Zubin Mehta, Soli Sorabjee, Shabana Azmi, and the Late Alyque Padamsee, amongst others</div>
+  <img src="images/sponsor_accent.png" alt="Snow" style="width:100%; height: auto; margin-left: 19.2%; margin-top: 0.45%; ">
+  <div class="top-left" style="color: #CFA057;font-size: 18px;font-family: Lora;text-align: justify; margin-top: -50px; width:100%;"><h1 style="text-align: left;">SPONSORS</h1><br>
+
+    <div class="sponsor_grid">
+      <div class="sponsor_block sponsor_block_1">Mercedes Benz</div>
+      <div class="sponsor_block sponsor_block_2">Tata</div>
+      <div class="sponsor_block sponsor_block_3">Titan</div>
+      <div class="sponsor_block sponsor_block_4">Taj</div>
+      <div class="sponsor_block sponsor_block_5">The Hindustan Times</div>
+      <div class="sponsor_block sponsor_block_6">Vistara</div>
+      <!--<div class="sponsor_block sponsor_block_7">6</div>
+      <div class="sponsor_block sponsor_block_8">7</div>
+      <div class="sponsor_block sponsor_block_9">8</div>-->
+    </div>
+
+  </div>
+
 </div>
-
-
 <div class="item7"  id="item7" style="margin-top: -3.62%; background-color: black;" >
         <div class="margin_class" style="margin-top: 5px; padding-bottom: 12px;">
         <div class="footer_block7" >
