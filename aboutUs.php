@@ -146,7 +146,7 @@ hr{
 }
 .modal-backdrop.in{
   opacity:.7;
-
+}
 </style>
 <body>
 <script type="text/javascript">
