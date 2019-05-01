@@ -73,8 +73,7 @@ $(window).on("resize", function () {
     <a href="#item2" style = "color: #916b2f">About Us</a>
     <a href="speakers.php" style = "color: #916b2f">Speakers</a>
     <a href="#" style = "color: #916b2f">Sponsors</a>
-    <a href="#item6" style = "color: #916b2f">Contact</a>
-    <a href="#item6" style = "color: #916b2f; border-right: none;">Tickets</a>
+    <a href="#item6" style = "color: #916b2f; border-right: none;">Contact</a>
     <button class="button button4" data-toggle = "modal" data-target = "#myModal" data-backdrop = "true">Attend</button>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
@@ -87,7 +86,7 @@ $(window).on("resize", function () {
     <div class="modal-content">
         <div class="modal-body">
             <img src="ticket.png" class="img-responsive" height="300px" width="846px" style = "margin-left: -200px;" usemap="#mapname">
-            <map name="Map" id="mapname">
+            <map name="mapname" id="mapname">
         <area alt="" title="" href="#" shape="rect" coords="140,190,250,225" style="cursor: pointer;" />
     
         </map>
@@ -107,7 +106,7 @@ $(window).on("resize", function () {
             <br>
             <br>
             <p style="font-family:Cinzel; font-size: 30px;"> EARLY BIRD REGISTRATION CLOSES ON 30<sup>TH</sup> MAY 2019</p>
-            <button class="button button4">BUY NOW</button>
+            <button class="button button4" data-toggle = "modal" data-target = "#myModal" data-backdrop = "true">BUY NOW</button>
             <br><br>
         </div>
     </div>
@@ -116,7 +115,7 @@ $(window).on("resize", function () {
     
     <!-- Footer block -->
     
-    <div class="item7"  id="item7" >
+    <div class="item7"  id="item7" style="margin-top: -10px;" >
         <div class="margin_class">
         <div class="footer_block7" >
             <?php include("footer.php"); ?>

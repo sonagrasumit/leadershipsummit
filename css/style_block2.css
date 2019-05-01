@@ -4,12 +4,11 @@ body{ min-height:100%;height: 99%; padding:0; margin:0; position:relative; }
     
 }
 .about_xavier{
-    min-height: 100px;
+    min-height: 500px;
     margin: 10px;
     font-family: Lora;
     padding: 10px 30px;
     font-size: 20px;
-    
     
 }
 .leadership_summit_info h3{
