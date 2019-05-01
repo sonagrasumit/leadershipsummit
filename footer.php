@@ -7,10 +7,10 @@
         <div class="all_content">
             <div class="contacts">
                 
-                <p class="emails" style = "font-size: 20px">&nbsp Leadership.summit@xaviers.edu</p>
+                <p class="emails" style = "font-size: 20px; letter-spacing: 2px;">&nbsp Leadership.Summit@Xaviers.Edu</p>
                 <p style="">&nbsp;|</p>&nbsp;
                 
-                <p class="location" style = "font-size: 20px">&nbsp St. Xavier's College, Mumbai (Autonomous)</p>
+                <p class="location" style = "font-size: 20px; letter-spacing: 2px;">&nbsp St. Xavier's College, Mumbai (Autonomous)</p>
                 
             </div>
             
