@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style_block5.css">
     <link rel="stylesheet" href="css/style_block7.css">
     <link rel="stylesheet" href="css/card.css">
-    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet"   type="text/css" href="css/form.css">
     <link rel="stylesheet" href="css/style_block6.css">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Lora">
