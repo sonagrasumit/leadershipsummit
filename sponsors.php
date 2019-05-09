@@ -6,7 +6,6 @@
 <link rel="icon" href="images/LeadershipLogo.png">
     <link rel="stylesheet" href="css/css_reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/card.css">
 
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
@@ -29,8 +28,8 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/topnav.css">
     <link rel="stylesheet" href="css/style_block7.css">
-    <link rel="stylesheet" href="css/aboutUs.css">
-    <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/sponsor.css">
+
 
 <body>
   <script type="text/javascript">
@@ -49,53 +48,57 @@
   </script>
 </head>
 
-<body >
- 
+<body style = "min-width: 650px;">
+
 <div class="grid-container">
-<!-- Fixed top navigation menu -->
+
   <?php include("topnav.php"); ?>
 
-  <div class="nav_spacer_top">
+  <div class="nav_spacer">
       &nbsp
   </div>
 
-<!-- modal class -->
   <?php include("modal.php"); ?>
 
-<!-- speaker blocks -->
-
 <br><br>
-<div id="speaker1" class="speaker1 ">
-  
-  <div id="img-div" class="align-self-center">
-    <img id="image" src="images/leadership_improv.jpg" alt = "pic from flickr">
-  </div>
+<div class="sponsor_grid">
+<img src="images/sponsor_accent.png" class="accent-class" alt="Snow" >
+
+      <div class="sponsor_block sponsor_block_1">
+      <h1>Mercedes</h1> 
+      <img src="images/sponsor/mercedes-logo.png" class="sponsor-logo" alt="Mercedes logo"> 
+      </div>
+      <div class="sponsor_block sponsor_block_2">
+        <h1>Tata</h1>
+        <img src="images/sponsor/tata-logo.jpg" class="sponsor-logo" alt="Tata logo"> 
+      </div>
+      <div class="sponsor_block sponsor_block_3">
+        <h1>Titan</h1>
+        <img src="images/sponsor/titan-logo.png" class="sponsor-logo" alt="Titan logo"> 
+      </div>
+      <div class="sponsor_block sponsor_block_4">
+        <h1>Taj</h1>
+        <img src="images/sponsor/taj-logo.jpg" class="sponsor-logo" alt="Taj logo"> 
+      </div>
+      <div class="sponsor_block sponsor_block_5">
+        <h1>Times of India</h1>
+        <img src="images/sponsor/toi-logo.jpg" class="sponsor-logo" alt="TOI logo"> 
+      </div>
+      <div class="sponsor_block sponsor_block_6">
+        <h1>Vistara</h1>
+        <img src="images/sponsor/vistara-logo.png" class="sponsor-logo" alt="Vistara logo"> 
+      </div>
 
 
-  <div id="speaker-info">
-    
-    <ul>
-      <h1 id="headline" >Mr. Rishabh Banerjee</h1>
-      <summary>Sniper with Pineapple.</summary>
-      <li><strong>1999</strong> - Born in Mumbai, Maharashtra</li>
-      <li><strong>2010</strong> - Downloaded Steam.
-      The four laws of thermodynamics define fundamental physical quantities (temperature, energy, and entropy) that characterize thermodynamic systems at thermal equilibrium. ... Third law of thermodynamics: The entropy of a system approaches a constant value as the temperature approaches absolute zero.</li>
-      <li><strong>2012</strong> - Downloaded Fortnite.
-      Brandon Stark, commonly called Bran, is the fourth child and second son of Eddard and Catelyn Stark. Bran is a warg and currently the new Three-Eyed Raven, using his supernatural gifts to assist his family in the war against the White Walkers.</li>
-      <li><strong>2019</strong> - Camping since then.</li>
-    </ul>
-
-    <blockquote>
-      <p>Don't play with him.</p>
-      <div>-- The Steam Community</div>
-    </blockquote>
-  </div>
+      <!--<div class="sponsor_block sponsor_block_7">6</div>
+      <div class="sponsor_block sponsor_block_8">7</div>
+      <div class="sponsor_block sponsor_block_9">8</div>-->
 </div>
 
-<div class="nav_spacer_bottom">
+<div class="nav_spacer">
     &nbsp
 </div>
-    <div class="item7"  id="item7" style=" background-color: black;">
+    <div class="item7"  id="item7" style=" background-color: black;" >
         <div class="footer_block7" >
             <?php include("footer.php"); ?>
     	   </div>

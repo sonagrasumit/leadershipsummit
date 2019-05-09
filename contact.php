@@ -6,7 +6,6 @@
 <link rel="icon" href="images/LeadershipLogo.png">
     <link rel="stylesheet" href="css/css_reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/card.css">
 
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
@@ -26,11 +25,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/topnav.css">
     <link rel="stylesheet" href="css/style_block7.css">
-    <link rel="stylesheet" href="css/aboutUs.css">
-    <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/contact.css">
+
 
 <body>
   <script type="text/javascript">
@@ -46,56 +44,69 @@
     $(window).on("resize", function () {
         $('.modal:visible').each(centerModal);
     });
+
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
   </script>
 </head>
 
-<body >
+<body style = "min-width: 650px;">
  
 <div class="grid-container">
-<!-- Fixed top navigation menu -->
+
   <?php include("topnav.php"); ?>
 
   <div class="nav_spacer_top">
       &nbsp
   </div>
 
-<!-- modal class -->
   <?php include("modal.php"); ?>
 
-<!-- speaker blocks -->
-
 <br><br>
-<div id="speaker1" class="speaker1 ">
-  
-  <div id="img-div" class="align-self-center">
-    <img id="image" src="images/leadership_improv.jpg" alt = "pic from flickr">
+<div id="container">
+<h1>&bull; CONTACT US &bull;</h1>
+  <div class="underline">
   </div>
-
-
-  <div id="speaker-info">
-    
-    <ul>
-      <h1 id="headline" >Mr. Rishabh Banerjee</h1>
-      <summary>Sniper with Pineapple.</summary>
-      <li><strong>1999</strong> - Born in Mumbai, Maharashtra</li>
-      <li><strong>2010</strong> - Downloaded Steam.
-      The four laws of thermodynamics define fundamental physical quantities (temperature, energy, and entropy) that characterize thermodynamic systems at thermal equilibrium. ... Third law of thermodynamics: The entropy of a system approaches a constant value as the temperature approaches absolute zero.</li>
-      <li><strong>2012</strong> - Downloaded Fortnite.
-      Brandon Stark, commonly called Bran, is the fourth child and second son of Eddard and Catelyn Stark. Bran is a warg and currently the new Three-Eyed Raven, using his supernatural gifts to assist his family in the war against the White Walkers.</li>
-      <li><strong>2019</strong> - Camping since then.</li>
-    </ul>
-
-    <blockquote>
-      <p>Don't play with him.</p>
-      <div>-- The Steam Community</div>
-    </blockquote>
+  <form action="#" method="post" id="contact_form" style = "background-color: white;">
+    <div class="name">
+      <label for="name"></label>
+      <input type="text" placeholder="My name is" name="name" id="name_input" required>
+    </div>
+    <div class="email">
+      <label for="email"></label>
+      <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+    </div>
+    <div class="telephone">
+      <label for="name"></label>
+      <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+    </div>
+    <div class="message">
+      <label for="message"></label>
+      <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+    </div>
+    <div class="submit">
+      <input type="submit" value="Send Message" id="form_button" />
+    </div>
+  </form><!-- // End form -->
   </div>
 </div>
-
+<div class="social" style="height: 20%;">
+  <a class="active_social" href="#"><img src="images/facebook.png" style="height: 50px;"></a>
+  <a href="#"><img src="images/twitter.png" style="height: 60px;"></a>
+  <a href="#"><img src="images/linkedin.png" style="height: 50px;"></a>
+  <a href="#"><img src="images/instagram.png" style="height: 50px;"></a>
+</div>
 <div class="nav_spacer_bottom">
     &nbsp
 </div>
-    <div class="item7"  id="item7" style=" background-color: black;">
+    <div class="item7"  id="item7" style=" background-color: black;" >
         <div class="footer_block7" >
             <?php include("footer.php"); ?>
     	   </div>

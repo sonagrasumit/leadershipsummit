@@ -1,0 +1,123 @@
+
+html,body{
+  font-family:"Lora";
+  font-size: 1em;
+  text-align:center;
+  min-width:400px;
+  color:#333;
+}
+#speaker1{
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  padding: 0 0.5em 0;
+}
+
+#img-div{
+  display: inline-block;
+  width:  max-content;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+#image{
+    width: 22em;
+    height: 22em;
+    position: relative;
+    overflow: hidden;
+    border:7px solid #CFA057;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#extras{
+  display: inline-block;
+  width: 1%;
+}
+
+#speaker-info{
+  display: inline-block;
+  max-width: max-content;
+  vertical-align: top;
+  padding: 0 0.5em 0;
+}
+h1{
+  font-family: "Cinzel";
+  font-weight: normal;
+  color: #CFA057;
+  size: 1.4em;
+}
+
+img {
+    display: inline-block;
+    width: max-content;
+    margin: 0 auto;
+    height: auto;
+}
+
+#img-caption{
+  font-family: Cinzel;
+  color: #CFA057;
+  font-size: 1.4em;
+}
+#headline{
+  text-align:left;
+  color: #CFA057;
+  display: inline-block;
+}
+ul{
+  max-width: 29em;
+  margin:0 auto;
+  padding: 0;
+  text-align:left;
+}
+li{
+  size: 0.5em;
+}
+blockquote{
+  font-style: italic;
+  float: right;
+}
+.striped-border {
+    border: 1px dashed #000;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+hr{
+  width: 100%;
+  display: inline-block;
+  color: #CFA057;
+  height: 3px;
+  background-color: #CFA057;
+}
+summary{
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 500;
+  font-family:Cinzel;
+  line-height: 0;
+  color: #CFA057
+}
+@media only screen and (max-width:900px){
+  #image{
+    width: 18em;
+    height: 18em;
+    border:6.5px solid #CFA057;
+    vertical-align: middle;
+  }
+  h1{
+    size: 0.8em;
+  }
+  ul{
+    max-width: 28em;
+    text-align:left;
+  }
+  li{
+    size: 0.3em;
+  }
+  
+}
