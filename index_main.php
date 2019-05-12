@@ -5,16 +5,16 @@
     <title>Leadership Summit</title>
     <link rel="icon" href="images/LeadershipLogo.png">
     <link rel="stylesheet" href="css/css_reset.css">
-    <link rel="stylesheet" href="css/style_block7.css">
+
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Lora">
+  
     <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/vivus.js"></script>
     <script src="js/vivus.js"></script>
     <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/pathformer.js"></script>
     <script src="js/pathformer.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
     <link rel="stylesheet" href="min/font-awesome-animation.min.css">
-    <link rel="stylesheet" href="css/style.css">
 
 	
    <!-- <link rel="stylesheet" href="index.css"> -->
@@ -26,6 +26,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/style_block7.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
 
@@ -43,14 +45,14 @@
             $('.modal:visible').each(centerModal);
         });
         
-        function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
+      function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
       }
+    }
     </script>
 	
 
@@ -66,7 +68,6 @@
 </div>
 
 <?php include("modal.php"); ?>
-
 
   <div class="item1"  id="item1">
     <div class="leadership_summit_info">
