@@ -45,18 +45,10 @@
     $(window).on("resize", function () {
         $('.modal:visible').each(centerModal);
     });
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
   </script>
 </head>
 
-<body>
+<body style = "min-width: 650px;">
 
 <div class="grid-container">
 
