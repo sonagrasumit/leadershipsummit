@@ -56,7 +56,6 @@
   </script>
 </head>
 
-<body>
  
 <div class="grid-container">
 

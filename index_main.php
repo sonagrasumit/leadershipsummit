@@ -5,11 +5,12 @@
     <title>Leadership Summit</title>
     <link rel="icon" href="images/LeadershipLogo.png">
     <link rel="stylesheet" href="css/css_reset.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Lora">
   
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/vivus.js"></script>
+    <<script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/vivus.js"></script>
     <script src="js/vivus.js"></script>
     <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/pathformer.js"></script>
     <script src="js/pathformer.js"></script>
@@ -27,9 +28,9 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/topnav.css">
     <link rel="stylesheet" href="css/style_block7.css">
-    <link rel="stylesheet" href="css/style.css">
 
 
+    <body >
 
     <script type="text/javascript">
         function centerModal() {
@@ -57,7 +58,6 @@
 	
 
 </head>
-<body >
  
 <div class="grid-container">
 
