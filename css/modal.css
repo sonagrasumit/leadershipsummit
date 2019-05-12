@@ -1,0 +1,17 @@
+
+  .modal-body{
+    margin-top: 100px;
+    
+    background-color: transparent;
+  }
+  
+.modal-backdrop{
+  opacity:0; transition:opacity .2s;
+}
+.modal-backdrop.in{
+  opacity:.7;
+}
+.modal-content{
+    border:none;
+    background-color: transparent;
+  }
