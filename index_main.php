@@ -91,12 +91,23 @@
           $('.modal:visible').each(centerModal);
       });
 
-      $('.icon').click(function () {
-        console.log("Clicked menu");
-        $("#topnav").toggleClass("show_list");
-        //$("#topnav").fadeIn();
+      function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
 
-      });
+      var y = document.getElementById("item1");
+      if (y.className === "item1") {
+        y.className += " new_margin";
+      } else {
+        y.className = "item1";
+      }
+    
+    }
+
 
     </script>
 

@@ -11,9 +11,7 @@
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Lora">
     
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/vivus.js"></script>
     <script src="js/vivus.js"></script>
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/pathformer.js"></script>
     <script src="js/pathformer.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
     <link rel="stylesheet" href="min/font-awesome-animation.min.css">
@@ -45,7 +43,7 @@
   <?php include("modal.php"); ?>
 
 <br><br>
-<div class="sponsor_grid">
+<div class="sponsor_grid" id="content">
 <img src="images/sponsor_accent.png" class="accent-class" alt="Snow" >
 
       <div class="sponsor_block sponsor_block_1">
@@ -110,6 +108,14 @@
       } else {
         x.className = "topnav";
       }
+
+      var y = document.getElementById("content");
+      if (y.className === "sponsor_grid") {
+        y.className += " new_margin";
+      } else {
+        y.className = "sponsor_grid";
+      }
+    
     }
   </script>
 

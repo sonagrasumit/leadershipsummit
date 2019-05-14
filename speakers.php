@@ -6,7 +6,6 @@
 <link rel="icon" href="images/LeadershipLogo.png">
     <link rel="stylesheet" href="css/css_reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/card.css">
 
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
@@ -50,6 +49,7 @@
 <!-- speaker blocks -->
 
 <br><br>
+<div id="content" class="speakers">
 <div id="speaker1" class="speaker1 ">
   
   <div id="img-div" class="align-self-center">
@@ -76,6 +76,7 @@
     </blockquote>
   </div>
 </div>
+</div>
 
 <div class="nav_spacer_bottom">
     &nbsp
@@ -100,6 +101,7 @@
     $(window).on("resize", function () {
         $('.modal:visible').each(centerModal);
     });
+
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
@@ -107,6 +109,14 @@
       } else {
         x.className = "topnav";
       }
+
+      var y = document.getElementById("content");
+      if (y.className === "speakers") {
+        y.className += " new_margin";
+      } else {
+        y.className = "speakers";
+      }
+    
     }
   </script>
 

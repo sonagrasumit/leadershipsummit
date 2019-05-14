@@ -43,7 +43,7 @@
   <?php include("modal.php"); ?>
 
 <br><br>
-<div id="container">
+<div id="container" class="forms">
 <h1>&bull; CONTACT US &bull;</h1>
   <div class="underline">
   </div>
@@ -107,6 +107,14 @@
       } else {
         x.className = "topnav";
       }
+
+      var y = document.getElementById("container");
+      if (y.className === "forms") {
+        y.className += " new_margin";
+      } else {
+        y.className = "forms";
+      }
+    
     }
 
   </script>

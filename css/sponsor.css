@@ -109,7 +109,14 @@ h1{
         grid-column: 2;
         grid-row: 3;
     }
-}/*
+}
+@media only screen and (max-width:600px){
+    .new_margin{
+      margin-top : 10vh;
+    }
+   
+  }
+/*
 @media only screen and (max-width:600px){
     .sponsor_grid{
         grid-template-columns: repeat(2,1fr);

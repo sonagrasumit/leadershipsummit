@@ -11,9 +11,7 @@
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Lora">
     
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/vivus.js"></script>
     <script src="js/vivus.js"></script>
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/pathformer.js"></script>
     <script src="js/pathformer.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
     <link rel="stylesheet" href="min/font-awesome-animation.min.css">
@@ -30,28 +28,7 @@
     <link rel="stylesheet" href="css/style_block7.css">
     <link rel="stylesheet" href="css/aboutUs.css">
 
-<body>
-  <script type="text/javascript">
-    function centerModal() {
-        $(this).css('display', 'block');
-        var $dialog = $(this).find(".modal-dialog");
-        var offset = ($(window).height() - $dialog.height()) / 2;
-        // Center modal vertically in window
-        $dialog.css("margin-top", offset);
-    }
-
-    $('.modal').on('show.bs.modal', centerModal);
-    $(window).on("resize", function () {
-        $('.modal:visible').each(centerModal);
-    });
-
-    $('.icon').click(function () {
-        console.log("Clicked menu");
-        $("#topnav").toggleClass("show_list");
-        //$("#topnav").fadeIn();
-
-      });
-  </script>
+  
 </head>
 
  
@@ -67,7 +44,7 @@
 
 <br><br>
 
-  <div class="top-left">
+  <div class="top-left" id="content">
     <br>
     <h1 style="text-align: left;">ABOUT US</h1><br>
   	St. Xavier’s College (Autonomous), Mumbai, one of the oldest and most prestigious colleges in India, offers courses in Arts, Commerce, Science, Management Studies, Information Technology and Mass Media. Founded by the Jesuits in 1869, the college has upheld the Jesuit values on the basis of which it was started. The college is a part of the worldwide group of Jesuit institutions, numbering over 100. In the U.S.A the Jesuits have 28 colleges, the George Town college and Boston College to name a few. 
@@ -82,5 +59,39 @@ The college motto is ‘Provocans Ad Volandvm’, which means ‘Provoke to Fly�
     	   </div>
 		</div>
 </div>
+
+<script type="text/javascript">
+    function centerModal() {
+        $(this).css('display', 'block');
+        var $dialog = $(this).find(".modal-dialog");
+        var offset = ($(window).height() - $dialog.height()) / 2;
+        // Center modal vertically in window
+        $dialog.css("margin-top", offset);
+    }
+
+    $('.modal').on('show.bs.modal', centerModal);
+    $(window).on("resize", function () {
+        $('.modal:visible').each(centerModal);
+    });
+
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+
+      var y = document.getElementById("content");
+      if (y.className === "top-left") {
+        y.className += " new_margin";
+      } else {
+        y.className = "top-left";
+      }
+    
+    }
+
+  </script>
+
 </body>
 </html>

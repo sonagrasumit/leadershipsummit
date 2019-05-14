@@ -9,6 +9,7 @@ body{
   margin: 0px auto;
 
 }
+
 html,body{
   font-family:"Lora";
   text-align:center;
@@ -61,4 +62,9 @@ blockquote{
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+@media only screen and (max-width:600px){
+  .new_margin{
+    margin-top : 7vh;
+  }
 }

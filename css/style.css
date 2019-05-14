@@ -25,7 +25,7 @@ body{
   display: block;
 }
 .nav_spacer_bottom{
-  height: 7.5vh;
+  height: 9vh;
   display: block;
 }
 
@@ -84,5 +84,10 @@ body{
     height: 500px;
     min-height: 100px;
     background-color:#f5f2f1;
+  }
+}
+@media only screen and (max-width:600px){
+  .new_margin{
+    margin-top : 10vh;
   }
 }
