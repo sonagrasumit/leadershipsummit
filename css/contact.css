@@ -32,7 +32,7 @@ textarea {
   overflow: auto;
 }
 
-#container {
+.forms {
   border: solid 3px #cfa057;
   max-width: 768px;
   margin: 60px auto;
@@ -244,6 +244,6 @@ textarea {
 }
 @media only screen and (max-width:600px){
   .new_margin{
-    margin-top : 7vh;
+    top : 7vh;
   }
 }

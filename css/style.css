@@ -3,22 +3,6 @@ body{
     padding:0;
   }
  
-.headers{
-    height: auto;
-    min-height: 100px;
-    background-color:#000000;
-    color:#ce9e62;
-    font-size: 22px;
-    text-align: center;
-  }
-
-.content{
-    height: auto;
-    min-height: 100px;
-    color:#c1432e;
-    font-size: 1.5em;
-    text-align: center;
-  }
 
 .nav_spacer_top{
   height: 8.8vh;
@@ -50,18 +34,11 @@ body{
     font-size: 30px;
   }
 
-.item2{
-    color:#000000;
-    height: 400px;
-    min-height: 100px;
-    background-color:#f5f2f1;
-  }
   .item7{
     color:#ce9e62;
     height: auto;
     background-color:#000000;
-    
-}
+  }
 @media only screen and (max-width:900px){
   .leadership_summit_info{
     height: 570px;
@@ -79,15 +56,10 @@ body{
     margin-bottom: 40px;
   }
 
-.item2{
-    color:#000000;
-    height: 500px;
-    min-height: 100px;
-    background-color:#f5f2f1;
-  }
 }
+
 @media only screen and (max-width:600px){
   .new_margin{
-    margin-top : 10vh;
+    margin-top : 14vh;
   }
 }

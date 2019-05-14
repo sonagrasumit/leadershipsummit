@@ -10,9 +10,7 @@
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Lora">
     
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/vivus.js"></script>
     <script src="js/vivus.js"></script>
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/pathformer.js"></script>
     <script src="js/pathformer.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
     <link rel="stylesheet" href="min/font-awesome-animation.min.css">

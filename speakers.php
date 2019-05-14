@@ -11,9 +11,7 @@
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Cinzel">
     <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Lora">
     
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/vivus.js"></script>
     <script src="js/vivus.js"></script>
-    <script src="https://raw.githubusercontent.com/maxwellito/vivus/master/src/pathformer.js"></script>
     <script src="js/pathformer.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
     <link rel="stylesheet" href="min/font-awesome-animation.min.css">
@@ -50,32 +48,32 @@
 
 <br><br>
 <div id="content" class="speakers">
-<div id="speaker1" class="speaker1 ">
-  
-  <div id="img-div" class="align-self-center">
-    <img id="image" src="images/leadership_improv.jpg" alt = "pic from flickr">
-  </div>
-
-
-  <div id="speaker-info">
+  <div id="speaker1" class="speaker1 ">
     
-    <ul>
-      <h1 id="headline" >Mr. Rishabh Banerjee</h1>
-      <summary>Sniper with Pineapple.</summary>
-      <li><strong>1999</strong> - Born in Mumbai, Maharashtra</li>
-      <li><strong>2010</strong> - Downloaded Steam.
-      The four laws of thermodynamics define fundamental physical quantities (temperature, energy, and entropy) that characterize thermodynamic systems at thermal equilibrium. ... Third law of thermodynamics: The entropy of a system approaches a constant value as the temperature approaches absolute zero.</li>
-      <li><strong>2012</strong> - Downloaded Fortnite.
-      Brandon Stark, commonly called Bran, is the fourth child and second son of Eddard and Catelyn Stark. Bran is a warg and currently the new Three-Eyed Raven, using his supernatural gifts to assist his family in the war against the White Walkers.</li>
-      <li><strong>2019</strong> - Camping since then.</li>
-    </ul>
+    <div id="img-div" class="align-self-center">
+      <img id="image" src="images/leadership_improv.jpg" alt = "pic from flickr">
+    </div>
 
-    <blockquote>
-      <p>Don't play with him.</p>
-      <div>-- The Steam Community</div>
-    </blockquote>
+
+    <div id="speaker-info">
+      
+      <ul>
+        <h1 id="headline" >Mr. Rishabh Banerjee</h1>
+        <summary>Sniper with Pineapple.</summary>
+        <li><strong>1999</strong> - Born in Mumbai, Maharashtra</li>
+        <li><strong>2010</strong> - Downloaded Steam.
+        The four laws of thermodynamics define fundamental physical quantities (temperature, energy, and entropy) that characterize thermodynamic systems at thermal equilibrium. ... Third law of thermodynamics: The entropy of a system approaches a constant value as the temperature approaches absolute zero.</li>
+        <li><strong>2012</strong> - Downloaded Fortnite.
+        Brandon Stark, commonly called Bran, is the fourth child and second son of Eddard and Catelyn Stark. Bran is a warg and currently the new Three-Eyed Raven, using his supernatural gifts to assist his family in the war against the White Walkers.</li>
+        <li><strong>2019</strong> - Camping since then.</li>
+      </ul>
+
+      <blockquote>
+        <p>Don't play with him.</p>
+        <div>-- The Steam Community</div>
+      </blockquote>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="nav_spacer_bottom">
