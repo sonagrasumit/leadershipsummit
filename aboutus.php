@@ -45,14 +45,12 @@
         $('.modal:visible').each(centerModal);
     });
 
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
+    $('.icon').click(function () {
+        console.log("Clicked menu");
+        $("#topnav").toggleClass("show_list");
+        //$("#topnav").fadeIn();
+
+      });
   </script>
 </head>
 

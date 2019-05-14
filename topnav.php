@@ -5,7 +5,7 @@
 	    <a href="speakers.php" style = "color: #916b2f">Speakers</a>
 	    <a href="sponsors.php" style = "color: #916b2f">Sponsors</a>
 	    <a href="contact.php" style = "color: #916b2f; border-right: none;">Contact</a>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<a href="javascript:void(0);" class="icon">
 	    <i class="fa fa-bars"></i>
 	  	</a>
 		</div>

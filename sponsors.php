@@ -30,34 +30,9 @@
     <link rel="stylesheet" href="css/style_block7.css">
     <link rel="stylesheet" href="css/sponsor.css">
 
-
-<body>
-  <script type="text/javascript">
-    function centerModal() {
-        $(this).css('display', 'block');
-        var $dialog = $(this).find(".modal-dialog");
-        var offset = ($(window).height() - $dialog.height()) / 2;
-        // Center modal vertically in window
-        $dialog.css("margin-top", offset);
-    }
-
-    $('.modal').on('show.bs.modal', centerModal);
-    $(window).on("resize", function () {
-        $('.modal:visible').each(centerModal);
-    });
-    
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
 </head>
 
-<body style = "min-width: 650px;">
+<body>
 
 <div class="grid-container">
 
@@ -113,5 +88,30 @@
     	   </div>
 		</div>
 </div>
+
+<script type="text/javascript">
+    function centerModal() {
+        $(this).css('display', 'block');
+        var $dialog = $(this).find(".modal-dialog");
+        var offset = ($(window).height() - $dialog.height()) / 2;
+        // Center modal vertically in window
+        $dialog.css("margin-top", offset);
+    }
+
+    $('.modal').on('show.bs.modal', centerModal);
+    $(window).on("resize", function () {
+        $('.modal:visible').each(centerModal);
+    });
+    
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
 </body>
 </html>
