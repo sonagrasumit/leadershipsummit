@@ -6,7 +6,7 @@ body{
 
 .top-left {
   width: 80%;
-  margin: 0px auto;
+  margin: 0px auto 5vh;
 
 }
 
@@ -65,6 +65,6 @@ blockquote{
 }
 @media only screen and (max-width:600px){
   .new_margin{
-    margin-top : 7vh;
+    margin-top : 10vh;
   }
 }

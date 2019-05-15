@@ -75,6 +75,7 @@ h1 {
   width: 100%;
   background-color: #FFF;
   overflow: auto;
+  margin-bottom: 4vh; 
 }
 
 /* Navigation links */
@@ -223,7 +224,7 @@ textarea {
     margin: 20px auto;
     width: 95%;
     font-size: 0.9em;
-    margin:45px auto; 
+    margin:25px auto; 
   }
   input[type='text'], [type='email'], select, textarea {
     background: none;
@@ -244,6 +245,6 @@ textarea {
 }
 @media only screen and (max-width:600px){
   .new_margin{
-    top : 7vh;
+    top : 10vh;
   }
 }
