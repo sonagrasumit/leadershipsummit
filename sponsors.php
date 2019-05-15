@@ -52,7 +52,7 @@
       </div>
       <div class="sponsor_block sponsor_block_2">
         <h1>Tata</h1>
-        <img src="images/sponsor/tata-logo.jpg" class="sponsor-logo" alt="Tata logo"> 
+        <img src="images/sponsor/tata-Logo.jpg" class="sponsor-logo" alt="Tata logo"> 
       </div>
       <div class="sponsor_block sponsor_block_3">
         <h1>Titan</h1>
