@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Leadership Summit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/LeadershipLogo.png">
     <link rel="stylesheet" href="css/css_reset.css">
     <link rel="stylesheet" href="css/style.css">
