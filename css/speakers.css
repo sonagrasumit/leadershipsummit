@@ -3,10 +3,9 @@ html,body{
   font-family:"Lora";
   font-size: 1em;
   text-align:center;
-  min-width:400px;
   color:#333;
 }
-#speaker1{
+.speaker{
   display: inline-block;
   width: 100%;
   margin: 0 auto;
