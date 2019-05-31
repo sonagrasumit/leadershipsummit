@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Leadership Summit</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel="icon" href="images/LeadershipLogo.png">
     <link rel="stylesheet" href="css/css_reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -51,7 +51,7 @@
             <br>
             <br>
             <br>
-            <p align="center"> EARLY BIRD REGISTRATION CLOSES ON 30<sup>TH</sup> MAY 2019</p>
+            <p align="center"> EARLY BIRD REGISTRATION CLOSES ON 15<sup>TH</sup> JUNE 2019</p>
             <div align="center">
             <button class="button button4 "  data-toggle = "modal" data-target = "#myModal" data-backdrop = "true">DONATE</button>
             </div>    

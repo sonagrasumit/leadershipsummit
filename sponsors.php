@@ -45,9 +45,10 @@
 <br><br>
 <div class="sponsor_grid" id="content">
 <img src="images/sponsor_accent.png" class="accent-class" alt="Snow" >
-
+<h1>Page under developemnt. Thanks for your patience</h1>
+<!--
       <div class="sponsor_block sponsor_block_1">
-      <h1>Mercedes</h1> 
+      <h1>s</h1> 
       <img src="images/sponsor/mercedes-logo.png" class="sponsor-logo" alt="Mercedes logo"> 
       </div>
       <div class="sponsor_block sponsor_block_2">
@@ -72,7 +73,7 @@
       </div>
 
 
-      <!--<div class="sponsor_block sponsor_block_7">6</div>
+      <div class="sponsor_block sponsor_block_7">6</div>
       <div class="sponsor_block sponsor_block_8">7</div>
       <div class="sponsor_block sponsor_block_9">8</div>-->
 </div>

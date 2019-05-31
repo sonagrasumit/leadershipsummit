@@ -10,8 +10,8 @@ html,body{
   width: 100%;
   margin: 0 auto;
   height: auto;
-  padding: 0 0.5em 0;
-  margin-bottom: 3em;
+  padding: 0 0.5em 1em;
+  margin-bottom: 4em;
 }
 
 #img-div{
@@ -109,20 +109,41 @@ summary{
     border:6.5px solid #CFA057;
     vertical-align: middle;
   }
-  h1{
-    size: 0.8em;
-  }
+  
   ul{
     max-width: 28em;
     text-align:left;
   }
-  li{
-    size: 0.3em;
-  }
+  
   
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:550px){
   .new_margin{
     margin-top : 12vh;
   }
+  h1{
+    width: unset;
+    margin: 0px auto;
+  }
+  p{
+    width: fit-content;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width:350px){
+  #image{
+    width: 14em;
+    height: 14em;
+    border:6.5px solid #CFA057;
+    vertical-align: middle;
+  }
+  h1{
+    font-size: 1.9em;
+  }
+  ul{
+    max-width: 24em;
+    text-align:left;
+  }
+
+  
 }
