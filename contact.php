@@ -47,19 +47,19 @@
   </div>
   <form action="db_save.php" method="post" id="contact_form" style = "background-color: white;">
     <div class="name">
-      <label for="name"></label>
+      <label for="name_input"></label>
       <input type="text" placeholder="My name is" name="name" id="name_input" required>
     </div>
     <div class="email">
-      <label for="email"></label>
+      <label for="email_input"></label>
       <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
     </div>
     <div class="telephone">
-      <label for="name"></label>
+      <label for="telephone_input"></label>
       <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
     </div>
     <div class="message">
-      <label for="message"></label>
+      <label for="message_input"></label>
       <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
     </div>
     <div class="submit">

@@ -5,6 +5,7 @@ if ($_POST){
     $number = $_POST['telephone'];
     $message = $_POST['message'];
    
+  
     //$mail_to = "abhijotsasson@icloud.com";
     //$mail_to = "shivamc021999@gmail.com";
     $mail_to = "leadership.summit@xaviers.edu";
@@ -12,15 +13,21 @@ if ($_POST){
   
   	$headers = "From: ".$email; // Where the email is sent from. i.e., the user
   
-    $txt = "Hey ".$name.".\nWe have received your feedback. \nThanks for visiting us! \nRegards.";
+    $txt = "Hey ".$name.", \n\nWe have received your feedback. \nThanks for visiting us! \n\nRegards \n\nLeadership Summit Team";
     
-    /* Change this according to server */
     
-    $link = mysqli_connect('localhost','leadership','Leadership0','leadership_summit');
-    $query = "INSERT into `Contact_Us` (Name, Email, Number, Message) values ('$name','$email','$number','$message')";
-    
-    /* ....................................................*/
-  
+    if($link = mysqli_connect('localhost','leadership','Leadership0','leadership_summit')){
+      /*echo '<script type="text/javascript">
+        alert("DB connection toh ho gaya");
+        </script>';*/
+    }else{
+      echo '<script type="text/javascript">
+        alert("DB connection problem!");
+        </script>';
+    }
+
+    $query = "INSERT into `Contact_Us` (Name, Email , Number, Message) values ('$name','$email','$number','$message')";
+      
   	if($result = mysqli_query($link,$query)){
        echo '<script type="text/javascript">
         alert("Your response has been recorded.");
@@ -32,6 +39,7 @@ if ($_POST){
         location="contact.php";
         </script>';
     }
+
 	/* Mail to admin */
     if(mail($mail_to, $subject, $message, $headers)){
         echo '<script type="text/javascript">
