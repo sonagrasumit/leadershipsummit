@@ -45,7 +45,7 @@
 <h1>&bull; CONTACT US &bull;</h1>
   <div class="underline">
   </div>
-  <form action="#" method="post" id="contact_form" style = "background-color: white;">
+  <form action="db_save.php" method="post" id="contact_form" style = "background-color: white;">
     <div class="name">
       <label for="name"></label>
       <input type="text" placeholder="My name is" name="name" id="name_input" required>
@@ -68,11 +68,11 @@
   </form><!-- // End form -->
   </div>
 </div>
-<div class="social" >
-  <a class="active_social" href="#"><img src="images/facebook.png" style="height: 50px;"></a>
-  <a href="#"><img src="images/twitter.png" style="height: 60px;"></a>
-  <a href="#"><img src="images/linkedin.png" style="height: 50px;"></a>
-  <a href="#"><img src="images/instagram.png" style="height: 50px;"></a>
+<div class="social" id="social">
+  <a class="active_social" href="https://m.facebook.com/sxcbom/"><img src="images/facebook.png" style="height: 50px;"></a>
+  <a href="https://mobile.twitter.com/alumnixaviers"><img src="images/twitter.png" style="height: 60px;"></a>
+  <a href="https://www.linkedin.com/school/st.-xavier's-college"><img src="images/linkedin.png" style="height: 50px;"></a>
+  <a href="https://instagram.com/sxcbom?igshid=1otsqm4j73u1u"><img src="images/instagram.png" style="height: 50px;"></a>
 </div>
 <div class="nav_spacer_bottom">
     &nbsp
@@ -111,6 +111,12 @@
         y.className += " new_margin";
       } else {
         y.className = "forms";
+      }
+      var z = document.getElementById("social");
+      if (z.className === "social") {
+        z.className += " new_margin";
+      } else {
+        z.className = "social";
       }
     
     }
