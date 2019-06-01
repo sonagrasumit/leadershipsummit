@@ -80,8 +80,9 @@
     <div id="speaker-info">
       
       <ul>
-      <h1 id="headline" >Mr. Montek Singh Ahluwalia</h1>
-
+      <br>
+      <h1 id="headline" >Mr. Montek Singh Ahluwalia</h1><br>
+      <p>Montek Singh Ahluwalia is an Indian economist and civil servant who was the Deputy Chairman of the Planning Commission of India untill 2014. He also served as the first Director of the Independent Evaluation Office at the International Monetary Fund (IMF). In 2011 , he was honored with Padma Vibhushan.</p>
       </ul>
 
     
@@ -138,7 +139,7 @@
   <div id="speaker5" class="speaker">
     
     <div id="img-div" class="align-self-center">
-      <img id="image" src="" alt = "Hitesh Oberoi">
+      <img id="image" src="images/speakers/hitesh_oberoi.JPG" alt = "Hitesh Oberoi">
     </div>
 
 
@@ -146,7 +147,7 @@
       
       <ul>
         <h1 id="headline" >Mr. Hitesh Oberoi</h1>
-        
+        <p>Hitesh Oberoi serves as the Managing Director, CEO and Co-Promoter at Info Edge (India) Limited and Naukri.com. With almost 18 years of experience in the internet industry, he is a charter member of the TiE, New Delhi and also the past Chairman of IAMAI – The Internet and Mobile Association of India. He is also a Founder an on the Board of Trustees of Ashoka University.</p>
       </ul>
 
     </div>
@@ -415,7 +416,7 @@
 
   
   <!-- Speaker 19 -->
-  
+  <!--
   <div id="speaker19" class="speaker">
     
     <div id="img-div" class="align-self-center">
@@ -432,6 +433,7 @@
 
     </div>
   </div>
+  -->
 <!-- end speaker list -->
 
 </div>

@@ -12,7 +12,7 @@ if ($_POST){
   
   	$headers = "From: ".$email; // Where the email is sent from. i.e., the user
   
-    $txt = "Hey ".$name.".\n We have received your feedback. \n Thanks for visiting us! \nRegards.";
+    $txt = "Hey ".$name.".\nWe have received your feedback. \nThanks for visiting us! \nRegards.";
     
     /* Change this according to server */
     
