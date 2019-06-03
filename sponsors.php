@@ -42,23 +42,27 @@
 
   <?php include("modal.php"); ?>
 
-<br><br>
+<br><br><br>
+<h1 class="our_supp" align="center">Our Supporters</h1>
+<br>
 <div class="sponsor_grid" id="content">
 <img src="images/sponsor_accent.png" class="accent-class" alt="Snow" >
-<h1>Page under developemnt. Thanks for your patience</h1>
+     <!-- <h1>Page under developemnt. Thanks for your patience</h1> -->
 <!--
       <div class="sponsor_block sponsor_block_1">
-      <h1>s</h1> 
+      <h1>Mercedes</h1> 
       <img src="images/sponsor/mercedes-logo.png" class="sponsor-logo" alt="Mercedes logo"> 
       </div>
       <div class="sponsor_block sponsor_block_2">
         <h1>Tata</h1>
         <img src="images/sponsor/tata-Logo.jpg" class="sponsor-logo" alt="Tata logo"> 
-      </div>
+      </div>-->
+
       <div class="sponsor_block sponsor_block_3">
-        <h1>Titan</h1>
-        <img src="images/sponsor/titan-logo.png" class="sponsor-logo" alt="Titan logo"> 
+        <img src="images/sponsor/st_anthony_high_school.jpeg" class="sahs-logo" alt="St. Anthony High School"> 
       </div>
+
+      <!--
       <div class="sponsor_block sponsor_block_4">
         <h1>Taj</h1>
         <img src="images/sponsor/taj-logo.jpg" class="sponsor-logo" alt="Taj logo"> 
@@ -75,7 +79,7 @@
 
       <div class="sponsor_block sponsor_block_7">6</div>
       <div class="sponsor_block sponsor_block_8">7</div>
-      <div class="sponsor_block sponsor_block_9">8</div>-->
+      <div class="sponsor_block sponsor_block_9">8</div> -->
 </div>
 
 <div class="nav_spacer">
