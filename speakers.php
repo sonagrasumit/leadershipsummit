@@ -139,7 +139,7 @@
   <div id="speaker5" class="speaker">
     
     <div id="img-div" class="align-self-center">
-      <img id="image" src="images/speakers/hitesh_oberoi.JPG" alt = "Hitesh Oberoi">
+      <img id="image" src="images/speakers/hitesh_oberoi.jpg" alt = "Hitesh Oberoi">
     </div>
 
 
@@ -336,8 +336,25 @@
     </div>
   </div>
 
+   <!-- Speaker 15 -->
   
-  <!-- Speaker 15 -->
+   <div id="speaker15" class="speaker">
+    
+    <div id="img-div" class="align-self-center">
+      <img id="image" src="images/speakers/.PNG" alt = "Kunal Jeswani">
+    </div>
+
+
+    <div id="speaker-info">
+      
+      <ul>
+        <h1 id="headline" >Mr. Kunal Jeswani</h1><br>
+        <p>Mr Kunal Jeswani</p>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Speaker 16 -->
   
   <div id="speaker15" class="speaker">
     
@@ -356,7 +373,7 @@
   </div>
 
   
-  <!-- Speaker 16 -->
+  <!-- Speaker 17 -->
   
   <div id="speaker16" class="speaker">
     
@@ -375,7 +392,7 @@
   </div>
 
   
-  <!-- Speaker 17 -->
+  <!-- Speaker 18 -->
   
   <div id="speaker17" class="speaker">
     
@@ -394,7 +411,27 @@
   </div>
 
   
-  <!-- Speaker 18 -->
+  <!-- Speaker 19 -->
+  
+  <div id="speaker18" class="speaker">
+    
+    <div id="img-div" class="align-self-center">
+      <img id="image" src="images/speakers/utpal_sheth.PNG" alt = "Utpal Sheth">
+    </div>
+
+
+    <div id="speaker-info">
+      
+      <ul>
+      <br>
+        <h1 id="headline" >Mr Utpal Sheth</h1><br>
+       <p> Mr. Utpal Sheth serves as the Chief Executive Officer at Rare Enterprises and is responsible for Investment Management, Risk Management and Institutionalization. He has been a faculty member at the BSE Training Institute, UTI Institute of Capital Market, National Institute of Financial Management, IIS Institute of Management (a JV with ENPC, France) and other such organizations.     </p> 
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- Speaker 20 -->
   
   <div id="speaker18" class="speaker">
     
