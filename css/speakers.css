@@ -47,7 +47,11 @@ h1{
   font-family: "Cinzel";
   font-weight: normal;
   color: #CFA057;
-  size: 1.4em;
+  size: 3.5vw!important;
+}
+
+.topic_class{
+  font-size: 3.5vw;
 }
 
 img {
@@ -114,6 +118,7 @@ summary{
     max-width: 28em;
     text-align:left;
   }
+  
   
   
 }
