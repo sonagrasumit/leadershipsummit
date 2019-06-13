@@ -15,6 +15,8 @@
     <script src="js/pathformer.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">  
     <link rel="stylesheet" href="min/font-awesome-animation.min.css">
+    <script src="min/imageMapResizer.min.js"></script>
+    <script src="js/imageMapResizer.js"></script>
 
 	
    <!-- <link rel="stylesheet" href="index.css"> -->
@@ -73,6 +75,11 @@
 </div>
 
     <script type="text/javascript">
+      
+      // Image map resizer
+
+      $('map').imageMapResize();
+      
       function centerModal() {
         $(this).css('display', 'block');
         var $dialog = $(this).find(".modal-dialog");
@@ -85,6 +92,9 @@
         $(window).on("resize", function () {
           $('.modal:visible').each(centerModal);
       });
+
+
+      // When Hamburger is clicked
 
       function myFunction() {
       var x = document.getElementById("myTopnav");
@@ -102,6 +112,7 @@
       }
     
     }
+
 
 
     </script>

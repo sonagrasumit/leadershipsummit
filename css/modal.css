@@ -4,8 +4,8 @@
     background-color: transparent;
   }
   .modal-body img{
-    height:20em;
-    width:150%;
+    height:30vw;
+    width:80vw;
     margin-left: -150px;
   }
 .modal-backdrop{
@@ -19,36 +19,3 @@
     border:none;
     background-color: transparent;
   }
-
-@media only screen and (max-width:900px){
-  .modal-body{
-    margin-top: 5em;
-      background-color: transparent;
-    }
-}
-@media only screen and (max-width:750px){
-  .modal-body{
-    margin-top: 5em;
-      background-color: transparent;
-    }
-  /*.modal-body img{
-    height:15em;
-    width:120%;
-    margin-left: -80px;
-  }*/
-  
-}
-  @media only screen and (max-width:600px){
-    .modal-body{
-      margin-top: 5em;
-      background-color: transparent;
-      }
-    /*.modal-body img{
-      height:12em;
-      width:100%;
-      margin-left: -10px;
-    }*/
-    
-}
-  
-
