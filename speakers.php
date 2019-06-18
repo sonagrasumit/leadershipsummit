@@ -129,30 +129,30 @@
   </div>
 
   <!-- Speaker 2_4 -->
-  <!--
+  
   <div id="speaker2_4" class="speaker">
     
     <div id="img-div" class="align-self-center">
-      <img id="image" src="" alt = "Rajrishi Singhal">
+      <img id="image" src="images/speakers/rohan_lawrence_menezes.PNG" alt = "Rajrishi Singhal">
     </div>
 
 
     <div id="speaker-info">
       
       <ul>
-        <h1 id="headline">Rohan Lawrence Menezes</h1>
-        
+        <h1 id="headline">Rohan Lawrence Menzes</h1>
+        <p>Chief Operating Officer- Technology & Operations(Global Delivery Center of Emterprise)- Senior Leadership Team. Menezes has 20 years of Technology, Infrastructural Administration and Business Operations whilst working Global Organizations in the BFSI space. Menezes earned his Bachelor of Science degree from St. Xavier's College, Mumbai University. He is also a certified IBM AS/400 programmer. He is active in community service including servimg serving as a My Environment Ambassador at Bank of America and leading several efforts on children welfare/education for GDCE India</p>
       </ul>
 
     </div>
   </div>
 
-  Speaker 2_5 -->
-  <!--
+ <!-- Speaker 2_5 -->
+  
   <div id="speaker2_5" class="speaker">
     
     <div id="img-div" class="align-self-center">
-      <img id="image" src="" alt = "Rajrishi Singhal">
+      <img id="image" src="images/speakers/rajrishi_singhal.PNG" alt = "Rajrishi Singhal">
     </div>
 
 
@@ -160,16 +160,16 @@
       
       <ul>
         <h1 id="headline">Rajrishi Singhal</h1>
-        
+        <p>Rajrishi Singhal is a former Senior Geoeconomics Fellow, Gateway House. He has been a senior business journalist, and Executive Editor, The Economic Times, and served as Head, Policy and Research, at a private sector bank, before shifting to consultancy and policy analysis. In his extensive journalistic career, he has covered areas such as, steel, coal, shipping, ports, petroleum, petrochemicals, textiles and corporate performance.</p>
       </ul>
 
     </div>
   </div>
--->
+
 
   <!-- Speaker 3_1 -->
 
-  <h1 class="topic_class">Tpoic - Entrepreneurship and Technology</h1><br>
+  <h1 class="topic_class">Topic - Entrepreneurship and Technology</h1><br>
   <div id="speaker3_1" class="speaker">
     
     <div id="img-div" class="align-self-center">
@@ -402,7 +402,7 @@
   <div id="speaker7_2" class="speaker">
     
     <div id="img-div" class="align-self-center">
-      <img id="image" src="images/speakers/.PNG" alt = "Kunal Jeswani">
+      <img id="image" src="images/speakers/kunal_jeswani.PNG" alt = "Kunal Jeswani">
     </div>
 
 
@@ -410,7 +410,7 @@
       
       <ul>
         <h1 id="headline" >Kunal Jeswani</h1><br>
-        <p>Mr Kunal Jeswani</p>
+        <p>Kunal is currently Executive Partner, Chief Executive of Ogilvy in India. He has been with the agency for nearly 13 years and has worked across the company’s Advertising and Digital businesses. Prior to leading Ogilvy’s India operations, Kunal served as Chief Digital Officer in India, and continues to be focused on growing the agency’s digital footprint in India. Kunal has spent over two decades in the communications business, working with a range of clients, including Unilever,Mondelēz, Vodafone and Tata Motors.</p>
       </ul>
     </div>
   </div>
